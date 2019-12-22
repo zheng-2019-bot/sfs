@@ -1,0 +1,394 @@
+.motto{
+  width:300px;
+  border:1px solid orange;
+}
+
+
+.canlendarBgView {
+
+  flex-grow: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+ 
+
+.canlendarView {
+
+  color: #6666CC;
+
+  display: flex;
+
+  flex-direction: column;
+
+  background:rgba(255,255,255,1);
+
+  box-shadow:0px 0px 6px rgba(0,0,0,0.16);
+
+  opacity:1;
+
+  border-radius:0px 0px 5px 5px;
+
+  padding-bottom: 32rpx;
+
+}
+
+ 
+
+.canlendarTopView {
+
+  height: 124rpx;
+
+  font-size: 32rpx;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #2F2F2F;
+
+}
+
+ 
+
+.leftBgView {
+
+  text-align: right;
+
+  height: 80rpx;
+
+  display: flex;
+
+  flex-direction: row-reverse;
+
+}
+
+.leftBgView,.rightBgView {
+
+  width: 80rpx;
+
+  height: 100%;
+
+}
+
+.leftView {
+
+  width: 18rpx;
+
+  height: 20rpx;
+
+  border-top: 2rpx solid #666666;
+
+  border-right: 2rpx solid #666666;
+
+  transform: rotate(-135deg);
+
+  margin-top: 54rpx;
+
+}
+
+ 
+
+.centerView {
+
+  width: 50%;
+
+  height: 80rpx;
+
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+ 
+
+.rightView {
+
+  width: 18rpx;
+
+  height: 20rpx;
+
+  border-top: 2rpx solid #666666;
+
+  border-right: 2rpx solid #666666;
+
+  transform: rotate(45deg);
+
+  margin-top: 54rpx;
+
+}
+
+ 
+
+.weekBgView {
+
+  height: 60rpx;
+
+  line-height: 60rpx;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding-left: 8%;
+
+  padding-right: 8%;
+
+  background-color: rgba(255,172,48,0.16);
+
+  color: #FFAC30;
+
+  font-size: 28rpx;
+
+  margin-bottom: 46rpx;
+
+}
+
+ 
+
+.weekView {
+
+  flex-grow: 1;
+
+  text-align: center;
+
+  font-size: 28rpx;
+
+}
+
+ 
+
+.dateBgView {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  padding-left: 7.7%;
+
+  padding-right: 7.2%;
+
+}
+
+ 
+
+.dateEmptyView {
+
+  width: 14.2%;
+
+  color: #fff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+ 
+
+.dateView {
+
+  width: 14.2%;
+
+  color: #fff;
+
+  align-items: center;
+
+  justify-content: center;
+
+  position: relative;
+
+  text-align: center;
+
+  margin-bottom: 20rpx;
+
+}
+
+ 
+
+.datesView {
+
+  width: 60rpx;
+
+  height: 60rpx;
+
+  color: #444444;
+
+  font-size: 28rpx;
+
+  font-weight: 200;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 0 auto;
+
+}
+
+.spot {
+
+  left: 46%;
+
+  bottom: 5rpx;
+
+  width: 6rpx;
+
+  height: 6rpx;
+
+  border-radius: 50%;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  background-color: red;
+
+  position: absolute;
+
+}
+
+.dateSelectView {
+
+  border-radius: 50%;
+
+  position: relative;
+
+  left: 0;
+
+  top: 0;
+
+  color: #fff;
+
+  background-color: #FFAC30;
+
+}
+
+.orange {
+
+  color: #FFAC30;
+
+}
+
+.noClass {
+
+  font-size: 30rpx;
+
+  color: #666;
+
+  text-align: center;
+
+}
+
+.noClass image{
+
+  width: 200rpx;
+
+  height: 164rpx;
+
+  margin: 110rpx auto 48rpx auto;
+
+}
+
+.list {
+
+  width: 90%;
+
+  margin: 20rpx auto auto auto;
+
+  background-color: #FFF;
+
+  padding-left: 20rpx;
+
+  padding-right: 20rpx;
+
+  border-radius: 20rpx;
+
+  color: #666;
+
+}
+
+.list>.top {
+
+  border-bottom: solid 2rpx #F3F3F3;
+
+  height: 62rpx;
+
+  line-height: 62rpx;
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.list>.top>.time {
+
+  color: #6E6E6E;
+
+}
+
+.list>.top view text {
+
+  color: #FFAC30;
+
+}
+
+.bottom>view {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  height: 66rpx;
+
+  line-height: 66rpx;
+
+}
+
+.bottom>view>.className {
+
+  color: #444444;
+
+  font-size: 28rpx;
+
+}
+
+.bottom .childrenName {
+
+  color: #999;
+
+  font-size: 26rpx;
+
+}
+.schedule{
+  color:#999,
+  
+}
+
